@@ -26,7 +26,6 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 
 ::-webkit-scrollbar-thumb {
   background-color: #f0c146 !important;
-  border-radius: 1rem !important;
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: #004bb3 !important;
