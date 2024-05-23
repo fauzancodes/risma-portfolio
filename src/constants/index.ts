@@ -168,9 +168,9 @@ export const Contact = [
     text: "rismawati2309@gmail.com",
     link: "mailto:rismawati2309@gmail.com"
   },{
-    name: "imageedin",
+    name: "linkedin",
     text: "Rismawati",
-    link: "https://www.imageedin.com/in/rismawati64/"
+    link: "https://www.linkedin.com/in/rismawati64/"
   }
 ]
 

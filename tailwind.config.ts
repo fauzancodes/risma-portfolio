@@ -23,7 +23,8 @@ const config: Config = {
         'secondary': '#ffffe6',
         'secondary-dark': '#e5e5cf',
         'dark-light': '#252525',
-        'dark': '#0d0d0d'
+        'dark': '#0d0d0d',
+        'accent': "#4675f0"
       },
     },
   },
