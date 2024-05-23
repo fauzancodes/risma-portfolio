@@ -120,8 +120,8 @@ export default function Home() {
 						</div>
 						<div className={`${FlexCenterY} md:tw-justify-center md:tw-flex-col tw-w-full md:tw-w-[45%] md:tw-min-h-screen tw-overflow-x-scroll md:tw-overflow-x-hidden tw-p-5 tw-border tw-border-dark tw-border-solid md:tw-border-0 md:tw-border-dark md:tw-border-solid tw-bg-primary tw-gap-5 md:tw-gap-0`}>
 							{item.images?.map((item, index) => (
-								<div className={`${FlexCenterY} tw-flex-col tw-w-full`}>
-									<img key={index} src={item.image} alt="Portfolio Image" className="tw-w-80 md:tw-w-full md:tw-border md:tw-border-dark md:tw-border-solid" />
+								<div key={index} className={`${FlexCenterY} tw-flex-col tw-w-full`}>
+									<img src={item.image} alt="Portfolio Image" className="tw-w-80 md:tw-w-full md:tw-border md:tw-border-dark md:tw-border-solid" />
 									<h4 className="!tw-mt-1 !tw-mb-5">{item.title}</h4>
 								</div>
 							))}
