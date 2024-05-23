@@ -18,11 +18,26 @@ export const EducationExperiences = [
 
 export const EducationImages = [
   "/images/ijazah.webp",
-  "/images/WhatsApp Image 2024-05-10 at 17.06.22 (1).webp",
-  "/images/BERKAS PENDUKUNG-1_page-0001.webp",
-  "/images/BERKAS PENDUKUNG-2_page-0001.webp",
-  "/images/BERKAS PENDUKUNG-3_page-0001.webp",
-  "/images/BERKAS PENDUKUNG-4_page-0001.webp"
+  "/images/WhatsApp Image 2024-05-10 at 17.06.22 (1).webp"
+]
+
+export const Certification = [
+  {
+    title: "Lab Assistant",
+    image: "/images/BERKAS PENDUKUNG-1_page-0001.webp"
+  },
+  {
+    title: "Lab Assistant",
+    image: "/images/BERKAS PENDUKUNG-2_page-0001.webp"
+  },
+  {
+    title: "Lab Assistant",
+    image: "/images/BERKAS PENDUKUNG-3_page-0001.webp"
+  },
+  {
+    title: "Lab Assistant",
+    image: "/images/BERKAS PENDUKUNG-4_page-0001.webp"
+  }
 ]
 
 export const WorkExperiences = [
