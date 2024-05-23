@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { poppins } from '@/app/ui/main/fonts'
 import ScrollToTopButton from "./ui/main/scrollToTop";
 import { FlexCenter } from "./ui/main/style";
-
-const inter = Inter({ subsets: ["latin"] });
+import BackToHomeButton from "./ui/main/backToHomeButton";
 
 export const metadata: Metadata = {
   title: {
@@ -21,9 +19,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang='en'>
       <body className={`${poppins.className} tw-antialiased tw-text-dark`}>
+        <BackToHomeButton />
         <ScrollToTopButton />
         {children}
         <footer className={`${FlexCenter} !tw-justify-start md:!tw-justify-center tw-bg-dark tw-flex-wrap tw-text-white tw-text-sm gap-2 tw-p-3`}>
