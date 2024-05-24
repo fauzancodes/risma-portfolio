@@ -1,4 +1,4 @@
-import { Contact, ProfilePhoto, Quote } from "@/constants";
+import { Contact, ContactPhoto, Quote } from "@/constants";
 import { FlexCenter, FlexCenterY } from "../ui/main/style";
 import { ButtonLinkSecondary } from "../ui/main/button";
 import { FaEnvelope, FaInstagram, FaLinkedin, FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa6";
@@ -18,7 +18,7 @@ export default function page() {
   return (
     <section id="certification" className={`tw-bg-secondary-light tw-min-h-screen ${FlexCenterY} tw-flex-row tw-flex-wrap`}>
       <div className={`${FlexCenter} tw-flex-col tw-w-full md:tw-w-6/12 tw-order-2 md:tw-order-1 tw-p-10`}>
-        <img src={ProfilePhoto} alt="Profile Image" className="tw-border tw-border-solid tw-w-full md:tw-w-auto" />
+        <img src={ContactPhoto} alt="Profile Image" className="tw-w-8/12 md:tw-w-5/12" />
         <h3 className="!tw-my-5">Rismawati, S.T.</h3>
         <p className="tw-text-center">{Quote.description}</p>
         <div className={`${FlexCenter} tw-mt-1 tw-relative`}>
