@@ -25,7 +25,7 @@ export default function Home() {
 				<h2 className="tw-text-5xl md:tw-text-8xl tw-font-black tw-w-full md:tw-w-6/12 !tw-pl-20 !tw-pt-20 !tw-pb-5">List Of Contents</h2>
 				<div className={`${FlexCenterX} tw-flex-col tw-bg-primary tw-w-full md:tw-w-6/12 tw-text-2xl tw-font-bold md:tw-text-4xl md:tw-min-h-screen tw-px-10 tw-pb-20 md:tw-pb-0 tw-overflow-x-hidden`}>
           {ListOfContents?.map((item, index) => (
-            <ListOfContentsComponent index={index} link={item.link} text={item.text} />
+            <ListOfContentsComponent key={index} index={index} link={item.link} text={item.text} />
           ))}
 				</div>
 				<div className="tw-absolute tw-font-bold tw-text-xl tw-bottom-10 tw-right-10 md:tw-bottom-16 md:tw-right-16">{new Date().getFullYear()}</div>

@@ -29,6 +29,6 @@ type ListOfContentsProps = {
 }
 export function ListOfContentsComponent({index, link, text}: ListOfContentsProps) {
   return (
-    <motion.a whileInView={{ translateX: 0, opacity: 1 }} initial={{ translateX: "10rem", opacity: 0 }} whileHover={{ translateX: "1rem" }} key={index} href={link} className={`${FlexCenterY} !tw-my-5 tw-no-underline tw-text-dark hover:tw-text-accent tw-gap-3`}>0{index + 1} {text} <FaArrowRight /></motion.a>
+    <motion.a whileInView={{ translateX: 0, opacity: 1 }} initial={{ translateX: "10rem", opacity: 0 }} whileTap={{ translateX: 0 }} whileHover={{ translateX: "1rem" }} href={link} className={`${FlexCenterY} !tw-my-5 tw-no-underline tw-text-dark hover:tw-text-accent tw-gap-3`}>0{index + 1} {text} <FaArrowRight /></motion.a>
   )
 }
