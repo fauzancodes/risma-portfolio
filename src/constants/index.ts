@@ -199,3 +199,28 @@ export const Quote = {
   description: "\"Make up your mind to be happy, and learn to find pleasure in simple things\"",
   author: "Robert Louis Stevenson"
 }
+
+export const ListOfContents = [
+  {
+    text: "Cover",
+    link: "#cover"
+  },{
+    text: "List Of Contents",
+    link: "#list-of-content"
+  },{
+    text: "About Me",
+    link: "/about-me"
+  },{
+    text: "Education",
+    link: "/education"
+  },{
+    text: "Certification",
+    link: "/certification"
+  },{
+    text: "Project Portfolio",
+    link: "/project-portfolio"
+  },{
+    text: "Contact",
+    link: "/contact"
+  }
+]

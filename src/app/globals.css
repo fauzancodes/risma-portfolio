@@ -7,7 +7,7 @@
   scroll-behavior: smooth !important;
   -webkit-scroll-behavior: smooth !important;
   -ms-scroll-behavior: smooth !important;
-  transition: all cubic-bezier(0.4, 0, 0.2, 1) 150ms;
+  transition: all 150ms;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, p {
