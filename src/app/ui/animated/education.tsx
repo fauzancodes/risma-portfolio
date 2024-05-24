@@ -13,13 +13,13 @@ export function Description() {
   return (
     <>
       {Education?.map((item, index) => (
-          <motion.p animate={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="!tw-my-5 md:tw-text-xl">
+          <motion.p animate={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="!tw-my-5 md:tw-text-xl tw-text-justify">
             {item}
           </motion.p>
         ))}
       <motion.ol animate={{ opacity: 1 }} initial={{ opacity: 0 }} className="tw-list-decimal">
         {EducationExperiences?.map((item, index) => (
-          <li key={index} className="!tw-my-5 md:tw-text-xl">
+          <li key={index} className="!tw-my-5 md:tw-text-xl tw-text-justify">
             {item}
           </li>
         ))}

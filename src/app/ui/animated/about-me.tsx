@@ -26,7 +26,7 @@ export function Description() {
   return (
     <>
       {About?.map((item, index) => (
-        <motion.p key={index} animate={{ opacity: 1 }} initial={{ opacity: 0 }} className="!tw-my-5 md:tw-text-xl">
+        <motion.p key={index} animate={{ opacity: 1 }} initial={{ opacity: 0 }} className="!tw-my-5 md:tw-text-xl tw-text-justify">
           {item}
         </motion.p>
       ))}

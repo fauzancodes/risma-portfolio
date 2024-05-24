@@ -21,13 +21,13 @@ export function Description() {
         <div key={index} className={`tw-w-full ${FlexCenterX} tw-items-start tw-flex-wrap`}>
           <div className="tw-w-full md:tw-w-[55%] md:tw-sticky md:tw-top-0">
             <motion.h3 whileInView={{ translateX: 0, opacity: 1 }} initial={{ translateX: "-2rem", opacity: 0 }} className="tw-text-3xl md:tw-text-4xl !tw-p-5 md:!tw-p-10 !tw-py-5">{index + 1}. {item.title} ({item.duration})</motion.h3>
-            <motion.p animate={{ opacity: 1 }} initial={{ opacity: 0 }} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-py-5 !tw-pt-0">{item.description}</motion.p>
+            <motion.p animate={{ opacity: 1 }} initial={{ opacity: 0 }} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-py-5 !tw-pt-0 tw-text-justify">{item.description}</motion.p>
             {item?.jobdesks.length > 0 ? (
               <motion.div whileInView={{ translateX: 0, opacity: 1 }} initial={{ translateX: "-2rem", opacity: 0 }} className="tw-bg-primary tw-py-5 !tw-px-5 md:tw-px-10">
                 <p className="md:tw-text-xl">Jobdesk:</p>
                 <ol className="tw-list-decimal">
                   {item?.jobdesks.map((item, index) => (
-                    <li className="md:tw-text-xl" key={index}>{item}</li>
+                    <li className="md:tw-text-xl tw-text-justify" key={index}>{item}</li>
                   ))}
                 </ol>
               </motion.div>
@@ -63,20 +63,20 @@ export function PortfolioItems() {
             <motion.h4 whileInView={{ translateX: 0, opacity: 1 }} initial={{ translateX: "-2rem", opacity: 0 }} className="tw-text-2xl md:tw-text-4xl !tw-px-5 md:!tw-px-10 !tw-pt-0 !tw-pb-10">({item.subtitle})</motion.h4>
             {item.extra.length > 0 ? (
               <>
-                <motion.p whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-mb-5">{item.description[0]}</motion.p>
+                <motion.p whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-mb-5 tw-text-justify">{item.description[0]}</motion.p>
                 <ol className="tw-list-decimal tw-list-outside !tw-px-10 md:!tw-px-16">
                   {item.extra?.map((item, index) => (
-                    <motion.li whileInView={{ translateX: 0, opacity: 1 }} initial={{ translateX: "-2rem", opacity: 0 }} key={index} className="md:tw-text-xl">{item}</motion.li>
+                    <motion.li whileInView={{ translateX: 0, opacity: 1 }} initial={{ translateX: "-2rem", opacity: 0 }} key={index} className="md:tw-text-xl tw-text-justify">{item}</motion.li>
                   ))}
                 </ol>
                 {item.description?.map((item, index) => index > 0 && (
-                  <motion.p whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-mb-5">{item}</motion.p>
+                  <motion.p whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-mb-5 tw-text-justify">{item}</motion.p>
                 ))}
               </>
             ) : (
               <>
                 {item.description?.map((item, index) => (
-                  <motion.p whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-mb-5">{item}</motion.p>
+                  <motion.p whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} key={index} className="md:tw-text-xl !tw-px-5 md:!tw-px-10 !tw-mb-5 tw-text-justify">{item}</motion.p>
                 ))}
               </>
             )}
