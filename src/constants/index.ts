@@ -1,4 +1,6 @@
-export const ProfilePhoto = "/images/WhatsApp_Image_2024-05-10_at_16.54.54-removebg-preview.webp"
+export const ProfilePhoto = "/images/WhatsApp_Image_2024-05-10_at_16.54.54-removebg-preview_waifu2x_art_scan_noise3_scale.webp"
+
+export const ContactPhoto = "/images/WhatsApp_Image_2024-05-24_at_2.31.05_PM__1_-removebg-preview_waifu2x_art_scan_noise3_scale.webp"
 
 export const About = [
   "My name is Rismawati, S.T. I was born and raised in Central Lampung. Currently, I am 27 years old. I graduated from Lampung University in 2019 with a major in Geophysical Engineering.",
@@ -17,8 +19,8 @@ export const EducationExperiences = [
 ]
 
 export const EducationImages = [
-  "/images/ijazah.webp",
-  "/images/WhatsApp Image 2024-05-10 at 17.06.22 (1).webp"
+  "/images/ijazah_waifu2x_art_scan_noise3_scale.webp",
+  "/images/WhatsApp Image 2024-05-24 at 3.13.32 PM.webp"
 ]
 
 export const Certification = [
@@ -37,6 +39,10 @@ export const Certification = [
   {
     title: "Lab Assistant",
     image: "/images/BERKAS PENDUKUNG-4_page-0001.webp"
+  },
+  {
+    title: "Department Level Best Graduate",
+    image: "/images/WhatsApp Image 2024-05-24 at 2.31.05 PM_waifu2x_art_scan_noise3_scale.webp"
   }
 ]
 
@@ -87,7 +93,7 @@ export const WorkPortfolio = [
       },
       {
         title: "Monthly Report Example",
-        image: "/images/image (1).webp"
+        image: "/images/image (1)_waifu2x_art_scan_noise3_scale.webp"
       }
     ]
   },{
