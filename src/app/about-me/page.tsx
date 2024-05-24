@@ -1,4 +1,3 @@
-import { About } from "@/constants";
 import { FlexCenter } from "../ui/main/style";
 import { Description, Header, ProfileImage } from "../ui/animated/about-me";
 
