@@ -1,12 +1,13 @@
 import { WorkExperiences, WorkPortfolio } from "@/constants";
 import { FlexCenterX, FlexCenterY } from "../ui/main/style";
+import { allura } from "../ui/main/fonts";
 
 export default function page() {
   return (
     <>
       <section id="work" className={`tw-bg-secondary-light tw-min-h-screen tw-flex tw-flex-col tw-justify-between tw-flex-wrap tw-pt-20`}>
 				<div className="tw-mb-12 tw-mx-5">
-					<h2 className="tw-font-semibold tw-italic tw-text-5xl md:tw-text-8xl md:tw-w-fit tw-text-center md:tw-text-left">Work</h2>
+					<h2 className={`${allura.className} tw-text-6xl md:tw-text-9xl md:tw-w-fit tw-text-center md:tw-text-left`}>Work</h2>
 					<h2 className="tw-font-black tw-text-5xl md:tw-text-8xl md:tw-w-fit md:!tw-ml-40 tw-text-center md:tw-text-left">Experience</h2>
 				</div>
 				{WorkExperiences?.map((item, index) => (
@@ -35,7 +36,7 @@ export default function page() {
       </section>
 			<section id="portfolio" className={`tw-bg-secondary-light tw-min-h-screen tw-flex tw-flex-col tw-justify-between tw-flex-wrap tw-pt-20`}>
 				<div className="tw-mb-12 tw-mx-5">
-					<h2 className="tw-font-semibold tw-italic tw-text-5xl md:tw-text-8xl md:tw-w-fit tw-text-center md:tw-text-left">Jobdesk</h2>
+					<h2 className={`${allura.className} tw-text-6xl md:tw-text-9xl md:tw-w-fit tw-text-center md:tw-text-left`}>Jobdesk</h2>
 					<h2 className="tw-font-black tw-text-5xl md:tw-text-8xl md:tw-w-fit md:!tw-ml-40 tw-text-center md:tw-text-left">Portfolio</h2>
 				</div>
 				{WorkPortfolio?.map((item, index) => (

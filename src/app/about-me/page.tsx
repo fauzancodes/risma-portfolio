@@ -1,5 +1,6 @@
 import { About, ProfilePhoto } from "@/constants";
 import { FlexCenter } from "../ui/main/style";
+import { allura } from "../ui/main/fonts";
 
 export default function page() {
   return (
@@ -12,7 +13,7 @@ export default function page() {
         </div>
       </div>
       <div className={`tw-bg-primary tw-px-10 tw-py-12 md:tw-w-[55%]`}>
-        <h2 className="tw-font-semibold tw-italic tw-text-5xl md:tw-text-8xl">Introducing</h2>
+        <h2 className={`${allura.className} tw-text-6xl md:tw-text-9xl`}>Introducing</h2>
         <h2 className="tw-font-black tw-text-5xl md:tw-text-8xl tw-text-right !tw-mb-10">About Me</h2>
         {About?.map((item, index) => (
           <p key={index} className="!tw-my-5 md:tw-text-xl">
