@@ -6,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 
 export function Ball() {
   return (
-    <motion.div animate={{ scale: [2, 1], opacity: 1 }} whileHover={{ scale: 1.5 }} initial={{ opacity: 0 }} className="tw-bg-primary tw-w-full md:tw-w-80 tw-h-80 md:tw-rounded-full tw-absolute tw-left-0 md:tw-left-40"></motion.div>
+    <motion.div animate={{ scale: [1.5, 1], borderRadius: ["25%", "50%"], rotate: ["90deg", "180deg"], opacity: 1 }} whileHover={{ scale: 1.5 }} initial={{ scale: 1, borderRadius: "1rem", rotate: 0, opacity: 0 }} transition={{ duration: 0.5 }} className="tw-bg-primary tw-w-full md:tw-w-80 tw-h-80 tw-absolute tw-left-0 md:tw-left-40"></motion.div>
   )
 }
 
