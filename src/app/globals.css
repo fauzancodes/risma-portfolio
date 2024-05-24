@@ -30,3 +30,7 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #004bb3 !important;
 }
+
+svg, path, button > span, a > span {
+  transition: none !important;
+}

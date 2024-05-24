@@ -190,6 +190,6 @@ export const Contact = [
 ]
 
 export const Quote = {
-  description: "Make up your mind to be happy, and learn to find pleasure in simple things",
+  description: "\"Make up your mind to be happy, and learn to find pleasure in simple things\"",
   author: "Robert Louis Stevenson"
 }
