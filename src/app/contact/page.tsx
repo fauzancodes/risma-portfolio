@@ -1,4 +1,3 @@
-import { Quote } from "@/constants";
 import { FlexCenter, FlexCenterY } from "../ui/main/style";
 import { ContactImage, ContactItems, ContactQuote, Header } from "../ui/animated/contact";
 
