@@ -1,15 +1,15 @@
-import { FaArrowRight } from "react-icons/fa6";
-import { FlexCenter, FlexCenterX, FlexCenterY } from "./ui/main/style";
+import { FlexCenter, FlexCenterX } from "./ui/main/style";
 import { Author, Ball, Header, ListOfContentsComponent } from "./ui/animated/cover";
 import { ListOfContents } from "@/constants";
+import { allura } from "./ui/main/fonts";
 
 export default function Home() {
   return (
     <>
-      <header id="cover" className={`tw-bg-secondary-light tw-min-h-screen ${FlexCenterX} tw-flex-col tw-flex-wrap tw-gap-5 md:tw-gap-3 tw-overflow-x-hidden`}>
-        <div className={`${FlexCenterX} tw-flex-col tw-flex-wrap tw-gap-5 md:tw-gap-3 md:tw-ml-72 tw-overflow-x-hidden`}>
+      <header id="cover" className={`tw-bg-secondary-light tw-min-h-screen ${FlexCenterX} tw-flex-col tw-flex-wrap tw-gap-5 md:tw-gap-3`}>
+        <div className={`${FlexCenterX} tw-flex-col tw-flex-wrap tw-gap-5 md:tw-gap-3 md:tw-ml-72`}>
           <h1 className={`tw-text-7xl md:tw-text-9xl tw-font-black tw-z-10 tw-text-center md:tw-text-left`}><span className="tw-text-transparent" style={{ WebkitTextStroke: ".3rem #0d0d0d" }}>Port</span>folio.</h1>
-          <h2 className="tw-font-semibold md:tw-text-4xl tw-z-10 tw-italic tw-text-center md:tw-text-left">Project Report, Leadership, Teamwork, Communication</h2>
+          <h2 className={`${allura.className} md:tw-text-6xl tw-z-10 tw-text-center md:tw-text-left`}>Project Report, Leadership, Teamwork, Communication</h2>
           <Ball />
         </div>
         <Header />
