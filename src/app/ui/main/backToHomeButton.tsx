@@ -10,7 +10,7 @@ export default function BackToHomeButton() {
 
   return (
     <motion.div layout animate={{ left: `${pathname !== "/" ? 0 : '-6rem'}` }} style={{ left: '-6rem' }} className='tw-fixed tw-p-3 tw-top-0 tw-z-50'>
-      <ButtonLinkPrimary link='/#list-of-content' icon={<FaArrowLeft />} shape='circle' floating />
+      <ButtonLinkPrimary link={`${pathname.includes('/project-portfolio/') ? '/project-portfolio#portfolio' : '/#list-of-content'}`} icon={<FaArrowLeft />} shape='circle' floating />
     </motion.div>
   )
 }
