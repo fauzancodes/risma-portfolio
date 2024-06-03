@@ -126,7 +126,7 @@ export const WorkExperiences = [
         title: "Manpower Monitoring",
         subtitle: "Documentation / Schedule",
         description: [
-          "Before the project starts,, as the project administrator, I will hold discussions/meetings with the team leader to develop a work  schedule from start to finish. The purpose of creating this schedule is to monitor the progress of work conducted by the manpower to ensure it aligns with the timeline. Additionally, it serves as a reference for the workers to perform their tasks according to procedures.",
+          "Before the project starts, as the project administrator, I will hold discussions/meetings with the team leader to develop a work  schedule from start to finish. The purpose of creating this schedule is to monitor the progress of work conducted by the manpower to ensure it aligns with the timeline. Additionally, it serves as a reference for the workers to perform their tasks according to procedures.",
           "After the work schedule has been prepared, every day as the project administrator , I will conduct monitoring either in the workshop or in the field. This monitoring involves documenting photos of completing checklists based on the scheduled tasks. These photos will be used later in daily, weekly, and monthly reports."
         ],
         extra: [],
