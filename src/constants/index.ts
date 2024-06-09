@@ -3,19 +3,19 @@ export const ProfilePhoto = "/images/WhatsApp_Image_2024-05-10_at_16.54.54-remov
 export const ContactPhoto = "/images/WhatsApp_Image_2024-05-24_at_2.31.05_PM__1_-removebg-preview_waifu2x_art_scan_noise3_scale.webp"
 
 export const About = [
-  "My name is Rismawati, S.T. I was born and raised in Central Lampung. Currently, I am 27 years old. I graduated from Lampung University in 2019 with a major in Geophysical Engineering.",
-  "Currently, I am focusing my career in the field of administration and purchasing. My first job after graduating was a Project Administrator and Purchasing Admin for 3 years and 5 months at a private company in East Cikarang that focuses on the WTP/WWTP industry.",
-  "My future goal is to advance my career, expand my network, and broaden my knowledge, and to join a professional company. Therefore, I will continue to strive to become a trustworthy and reliable individual."
+  "I am Rismawati, S.T. I was born and raised in Central Lampung. I am currently 27 years old. I graduated from the University of Lampung in 2019 majoring in Geophysical Engineering.",
+  "Currently I have a career focus in the field of administration and purchasing. My first career after graduating from college was as Project Administrator and Purchasing Admin for 3 Years 5 Months at a private company in East Cikarang which focused on the WTP/WWTP industry.",
+  "My target in the future is to be able to have a better career path, relationships and insight and be able to join a professional company. Therefore, I will continue to strive to be a person who can be trusted and relied on.",
 ]
 
 export const Education = [
-  "I hold a Bachelor's degree (S1) in Geophysical Engineering from Lampung University from 2015 to 2019 with a GPA of 3.78/4.00. Throughout my college years, I was a recipient of the Bidikmisi scholarship from the beginning to the end of each semester.",
-  "During my studies, although I did not directly take on roles in administration or purchasing, I gained some administrative experience, including:"
+  "I have a bachelor's degree (S1) in Geophysical Engineering at the University of Lampung from 2015 to 2019 with a GPA of 3.78. During my studies I was a Bidikmisi scholarship student from the beginning of the semester to the end of the semester.",
+  "While studying, I did not directly accept or take on duties as an administrator or purchasing officer. However, I have some experience in the administrative field including:"
 ]
 
 export const EducationExperiences = [
-  "I was entrusted with the role of executive secretary in the organization I was involved in, namely the \"Himpunan Mahasiswa Teknik Geofisika Bhuwana\", where I was responsible for handling correspondence, permits, and invitations for training/seminar events.",
-  "Additionally, I was frequently chosen to be a teaching assistant/lab assistant. As a teaching assistant, my responsibilities included preparing learning materials for students, examining exam results, and compiling exam scores using Microsoft Excel."
+  "I was once trusted to be the executive secretary of the    organization I joined, namely the \"Bhuwana Geophysical Engineering Student Association\" where I was tasked with taking care of licensing correspondence and invitations for holding training events/seminars.",
+  "Apart from that, I have also been trusted several times to be a teaching assistant / practicum assistant, where the duties of a teaching assistant are to prepare all learning materials for students, check exam results, and recap exam scores using Microsoft Excel."
 ]
 
 export const EducationImages = [
@@ -50,7 +50,7 @@ export const WorkExperiences = [
   {
     title: "PT Krida Hangulindo Utama",
     duration: "2020 until 2024",
-    description: "I have experience working at PT Krida Hangulindo Utama from August 18, 2020, to January 31, 2024, holding the position as a Project Administrator and a Purchasing Administrator. This company is engaged in the construction/installation of pipes for waste water treatment (IPAL/WTP), located in East Cikarang, West Java.",
+    description: "I have experience working at PT. Krida Hangulindo Utama from 18 August 2020 to 31 January 2024, served as Project Admin concurrently as Purchasing Admin. This company is engaged in the construction/installation of pipes for waste water treatment (IPAL/WTP), located in East Cikarang, West Java.",
     jobdesks: [
       "Create Daily Reports, Weekly Reports and Monthly Project Reports",
       "Create Purchase Requisitions and Purchase Orders for Materials and Consumables",
@@ -73,7 +73,7 @@ export const WorkExperiences = [
         title: "Reporting Document",
         subtitle: "Daily, Weekly, Monthly",
         description: [
-          "The purpose of reporting document is to track the progress of work carried out by manpower every day.",
+          "The purpose of document reporting is to track the progress of work carried out by manpower every day.",
           "These reports include daily reports (yesterday's work results and today's work plan), weekly reports for a period of one week, and monthly reports for a period of one month.",
           "Daily and weekly reports will be provided to supervisors, heads of engineering divisions, and project managers. Meanwhile, monthly reports will be submitted to the technical director and clients.",
           "All these reports were prepared using Microsoft Excel and Microsoft Word."
@@ -97,14 +97,14 @@ export const WorkExperiences = [
         title: "Purchasing Activity",
         subtitle: "Quotation, Material Data List, P.O",
         description: [
-          "The purchasing division is a part of the company that responsible for providing goods/services for the operational needs of the company. In my previous workplace, there were 6 stages in the procurment process.",
-          "In the purchasing process, the ability to negotiate to obtain the best goods at the best price and with the best service is crucial in order to generate greater profits for the company."
+          "The purchasing division is the part of the company whose task is to provide goods/services for the company's operational needs. In the company where I previously worked there were 6 stages in the goods procurement process, namely:",
+          "In this purchasing process, the ability to negotiate to get the best goods at the best prices and the best service is very necessary in order to generate more profits for the company."
         ],
         extra: [
-          "Client's request for specific goods/services",
+          "There is a request from the client for certain goods",
           "Make a data list regarding what items will be needed along with the price of the items",
           "Create a price offer document for the goods requested by the client",
-          "Once the offer is accepted and the client agrees to purchase the item from us, they send us a P.O for the item",
+          "Once the offer is accepted and the client agrees to purchase the item from us and they send us a P.O for the item",
           "Purchase order process to supplier",
           "Goods are ready to be distributed to clients"
         ],
@@ -126,8 +126,8 @@ export const WorkExperiences = [
         title: "Manpower Monitoring",
         subtitle: "Documentation / Schedule",
         description: [
-          "Before the project starts, as the project administrator, I will hold discussions/meetings with the team leader to develop a work  schedule from start to finish. The purpose of creating this schedule is to monitor the progress of work conducted by the manpower to ensure it aligns with the timeline. Additionally, it serves as a reference for the workers to perform their tasks according to procedures.",
-          "After the work schedule has been prepared, every day as the project administrator , I will conduct monitoring either in the workshop or in the field. This monitoring involves documenting photos of completing checklists based on the scheduled tasks. These photos will be used later in daily, weekly, and monthly reports."
+          "Before the project starts, I as the project admin will hold a discussion/meeting with the work team leader to prepare a work schedule from start to finish. Making this schedule aims to control the progress of work carried out by manpower whether it is in accordance with the timeline or not. Apart from that, it is useful as a reference for workers to carry out work according to procedures.",
+          "After the work schedule has been prepared, every day I as the project admin will carry out control both in the workshop and in the field. This control takes the form of documenting photos or carrying out a work checklist based on a schedule that has been prepared. This photo will be used later in daily, weekly and monthly reports."
         ],
         extra: [],
         images: [
@@ -148,16 +148,16 @@ export const WorkExperiences = [
         title: "Materials Controlling",
         subtitle: "Checking & Delivering Notes",
         description: [
-          "As a project administrator, besides being responsible for creating reports and monitoring manpower, I am also tasked with checking incoming and outgoing items, including materials, consumables, tools, and machines. Incoming items are recorded in the incoming goods log. For outgoing items, a delivery note is usually created. This delivery note includes the following information:",
-          "The information about incoming and outgoing items is not only recorded in the logbook but is also usually shared in the office WhatsApp group as evidence."
+          "As a project admin, apart from being responsible for making reports and monitoring manpower, I also have the task of checking incoming and outgoing goods in the form of materials, consumables, tools and also machines where incoming goods will be entered into the incoming goods record. For outgoing goods, a travel document will usually be made. This outbound goods waybill provides information in the form of:",
+          "Apart from entering this information on incoming and outgoing goods, I will usually inform the office WhatsApp group first as proof."
         ],
         extra: [
           "Delivery Date",
-          "Document Number",
+          "Letter Number",
           "Vehicle Type & License Plate Number",
-          "Quantity, item Name, & Specifications",
-          "Signature of the Responsible Person along with the Stamp",
-          "Stamp & Signature of Security"
+          "Number of Items, Item Name & Specifications",
+          "Signature of the Person in Charge along with Stamp",
+          "Security Stamp & Signature"
         ],
         images: [
           {
