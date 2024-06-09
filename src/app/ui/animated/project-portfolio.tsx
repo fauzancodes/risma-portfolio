@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { allura } from "../main/fonts"
-import { WorkExperiences, WorkPortfolio } from "@/constants"
+import { WorkExperiences } from "@/constants"
 import { FlexCenter, FlexCenterX, FlexCenterY } from "../main/style"
 import { FaArrowRight } from "react-icons/fa6"
 
