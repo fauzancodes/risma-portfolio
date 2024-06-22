@@ -25,6 +25,14 @@ export const EducationImages = [
 
 export const Certification = [
   {
+    title: "MS Excel Online Training - Participant",
+    image: "/images/COMPLETION Rismawati_001.webp"
+  },
+  {
+    title: "MS Excel Online Training - Completion",
+    image: "/images/COMPLETION Rismawati_002.webp"
+  },
+  {
     title: "Lab Assistant",
     image: "/images/BERKAS PENDUKUNG-1_page-0001.webp"
   },
