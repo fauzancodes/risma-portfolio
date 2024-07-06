@@ -18,7 +18,7 @@ export function Header() {
 
 export function Author() {
   return (
-    <motion.h4 animate={{ opacity: 1 }} initial={{ opacity: 0 }} className="tw-font-normal md:tw-text-3xl tw-absolute tw-bottom-5 tw-left-5 md:tw-bottom-36 md:-tw-left-10 md:-tw-rotate-90 tw-z-10">By. <strong>Rismawati</strong></motion.h4>
+    <motion.h4 animate={{ opacity: 1 }} initial={{ opacity: 0 }} className="tw-font-normal md:tw-text-3xl tw-absolute tw-bottom-20 tw-left-5 md:tw-bottom-44 md:-tw-left-10 md:-tw-rotate-90 tw-z-10">By. <strong>Rismawati</strong></motion.h4>
   )
 }
 

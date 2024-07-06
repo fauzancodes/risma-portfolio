@@ -4,6 +4,7 @@ import { poppins } from '@/app/ui/main/fonts'
 import ScrollToTopButton from "./ui/main/scrollToTop";
 import { FlexCenter } from "./ui/main/style";
 import BackToHomeButton from "./ui/main/backToHomeButton";
+import CvButton from "./ui/main/cvButton";
 
 export const metadata: Metadata = {
   title: {
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${poppins.className} tw-antialiased tw-text-dark`}>
         <BackToHomeButton />
         <ScrollToTopButton />
+        <CvButton />
         {children}
         <footer className={`${FlexCenter} !tw-justify-start md:!tw-justify-center tw-bg-dark tw-flex-wrap tw-text-white tw-text-sm gap-2 tw-p-3`}>
           <div>&copy; {new Date().getFullYear()} Rismawati.</div>
