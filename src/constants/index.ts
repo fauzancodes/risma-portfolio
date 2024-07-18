@@ -25,6 +25,30 @@ export const EducationImages = [
 
 export const Certification = [
   {
+    title: "My Skill E-Learning - Basic Ms Excel Certificate",
+    image: "/images/My Skill E-Learning - Basic Ms Excel Certificate_001.webp"
+  },
+  {
+    title: "Quantum HR - Office Administration Skills Certification",
+    image: "/images/Quantum HR - Office Administration Skills Certification_002.webp"
+  },
+  {
+    title: "Quantum HR - Office Administration Skills Certification",
+    image: "/images/Quantum HR - Office Administration Skills Certification_001.webp"
+  },
+  {
+    title: "Edspert - Certificate",
+    image: "/images/Edspert - Certificate_001.webp"
+  },
+  {
+    title: "MySkill - Conditional IF-Else Certificate",
+    image: "/images/My Skill Conditional IF-Else Certificate_001.webp"
+  },
+  {
+    title: "English for Everyone - Adult Level 1",
+    image: "/images/English for Everyone - Adult Level 1_001.webp"
+  },
+  {
     title: "MS Excel Online Training - Participant",
     image: "/images/COMPLETION Rismawati_001.webp"
   },
