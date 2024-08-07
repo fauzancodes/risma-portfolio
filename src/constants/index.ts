@@ -25,6 +25,14 @@ export const EducationImages = [
 
 export const Certification = [
   {
+    title: "My Skill E-Learning - Free Intensive Bootcamp: Microsoft Excel",
+    image: "/images/Rismawati - E-Certif SC Basic Microsoft Excel MySkill_001.webp"
+  },
+  {
+    title: "My Skill E-Learning - Designing With Canva",
+    image: "/images/Rismawati - E-Certif SC Designing Using Canva MySkill_001.webp"
+  },
+  {
     title: "My Skill E-Learning - Basic Ms Excel Certificate",
     image: "/images/My Skill E-Learning - Basic Ms Excel Certificate_001.webp"
   },
