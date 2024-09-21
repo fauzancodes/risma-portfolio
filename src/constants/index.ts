@@ -25,6 +25,18 @@ export const EducationImages = [
 
 export const Certification = [
   {
+    title: "Fullstack Microsoft Excel Basic To Advance",
+    image: "/images/E-Certificate Completion - RISMAWATI_001.webp"
+  },
+  {
+    title: "Fullstack Microsoft Excel Basic To Advance",
+    image: "/images/E-Certificate Completion - RISMAWATI_002.webp"
+  },
+  {
+    title: "Fullstack Microsoft Excel Basic To Advance",
+    image: "/images/E-Certificate Completion - RISMAWATI_003.webp"
+  },
+  {
     title: "My Skill E-Learning - Free Intensive Bootcamp: Microsoft Excel",
     image: "/images/Rismawati - E-Certif SC Basic Microsoft Excel MySkill_001.webp"
   },
