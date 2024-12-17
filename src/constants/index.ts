@@ -1,4 +1,4 @@
-export const ProfilePhoto = "/images/WhatsApp_Image_2024-05-10_at_16.54.54-removebg-preview_waifu2x_art_scan_noise3_scale.webp"
+export const ProfilePhoto = "/images/c02202aaef5aa45a883490d93524f8b391593440_s2_n3_y2.webp"
 
 export const ContactPhoto = "/images/WhatsApp_Image_2024-05-24_at_2.31.05_PM__1_-removebg-preview_waifu2x_art_scan_noise3_scale.webp"
 
